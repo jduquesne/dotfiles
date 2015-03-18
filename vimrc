@@ -11,7 +11,7 @@ set incsearch                   " show match as seach proceeds
 set ignorecase                  " use case insensitive search
 set smartcase                   " except when using capital letters
 set ruler                       " display the cursor position in the status linew
-set wildmenu                    " ommand-line completion
+set wildmenu                    " command-line completion
 set wildmode=longest,list,full  " better command-line completion
 set showcmd                     " show the commands
 set number                      " display line numbers
