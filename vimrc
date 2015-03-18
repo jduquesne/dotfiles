@@ -27,7 +27,7 @@ set nowrap                      " to display long lines as one line
 set backspace=indent,eol,start  " allow backspacing over indent, line-breaks and insert start 
 set laststatus=2                " always display the status line
 
-setlocal spell spelllang=en_gb   set spell-checking language
+setlocal spell spelllang=en_gb  " set spell-checking language
 set nospell                     " turn spell-checking off until called
 
 colorscheme desert              " set colorscheme desert
