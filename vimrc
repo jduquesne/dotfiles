@@ -1,8 +1,18 @@
 " vimrc @jduquesne
+" inspirations: http://vim.wikia.com/wiki/Example_vimrc and
+" github.com/corteztk
 
 filetype plugin on              " determine the file type based on its name
 filetype indent plugin on       " determine the file type based on its content
 syntax on                       " enable syntax highlighting
+
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'chriskempson/base16-vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+call plug#end()
 
 set nocompatible                " ward off unexpected things distro related
 set fileencoding=utf-8          " the encoding written to file
@@ -24,13 +34,14 @@ set tabstop=4                   " size of a hard tabstop
 set shiftwidth=4                " size of an 'indent'
 set expandtab                   " always use spaces instead of tab characters
 set nowrap                      " to display long lines as one line
-set backspace=indent,eol,start  " allow backspacing over indent, line-breaks and insert start 
+set backspace=indent,eol,start  " allow backspacing over indent, line-breaks and insert start
 set laststatus=2                " always display the status line
 
 setlocal spell spelllang=en_gb  " set spell-checking language
 set nospell                     " turn spell-checking off until called
 
-colorscheme desert              " set colorscheme desert
+set background=dark
+colorscheme desert
 
 " <Ctrl-l> redraws the screen and removes any search highlighting
 nnoremap <silent> <C-l> :nohl<CR><C-l>

@@ -2,3 +2,4 @@ dotfiles
 ====
 
 vimrc
+tmux.conf
