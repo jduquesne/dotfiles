@@ -8,7 +8,6 @@ syntax on                       " enable syntax highlighting
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
-Plug 'chriskempson/base16-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'

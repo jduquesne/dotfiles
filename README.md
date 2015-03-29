@@ -1,5 +1,5 @@
 dotfiles
 ====
 
-vimrc
-tmux.conf
+- vimrc
+- tmux.conf
