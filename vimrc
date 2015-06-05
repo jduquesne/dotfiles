@@ -40,7 +40,7 @@ setlocal spell spelllang=en_gb  " set spell-checking language
 set nospell                     " turn spell-checking off until called
 
 set background=dark
-colorscheme desert
+colorscheme solarized
 
 " <Ctrl-l> redraws the screen and removes any search highlighting
 nnoremap <silent> <C-l> :nohl<CR><C-l>
