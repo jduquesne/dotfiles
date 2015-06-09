@@ -42,5 +42,8 @@ set nospell                     " turn spell-checking off until called
 set background=dark
 colorscheme solarized
 
+" Close NERDTree after opening file
+let NERDTreeQuitOnOpen=1
+
 " <Ctrl-l> redraws the screen and removes any search highlighting
 nnoremap <silent> <C-l> :nohl<CR><C-l>
