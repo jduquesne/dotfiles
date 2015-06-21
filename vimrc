@@ -29,8 +29,8 @@ set nolist                      " don't show invisible characters
 set listchars=tab:>-,eol:¶      " highlight unwanted space (tax and eol)
 set autoindent                  " keep the same indent as the line we're currently on
 set smartindent                 " does the right thing (mostly) in programs
-set tabstop=4                   " size of a hard tabstop
-set shiftwidth=4                " size of an 'indent'
+set tabstop=2                   " size of a hard tabstop
+set shiftwidth=2                " size of an 'indent'
 set expandtab                   " always use spaces instead of tab characters
 set nowrap                      " to display long lines as one line
 set backspace=indent,eol,start  " allow backspacing over indent, line-breaks and insert start
