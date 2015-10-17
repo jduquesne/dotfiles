@@ -9,8 +9,8 @@ syntax on                       " enable syntax highlighting
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
-Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'junegunn/goyo.vim'
 call plug#end()
 
 set nocompatible                " ward off unexpected things distro related
