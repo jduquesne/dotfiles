@@ -26,7 +26,7 @@ set showcmd                     " show the commands
 set number                      " display line numbers
 set ofu=syntaxcomplete#Complete " smart auto-completion for programs
 set nolist                      " don't show invisible characters
-set listchars=tab:>-,eol:¶      " highlight unwanted space (tax and eol)
+set listchars=tab:>-,eol:~      " highlight unwanted space (tax and eol)
 set autoindent                  " keep the same indent as the line we're currently on
 set smartindent                 " does the right thing (mostly) in programs
 set tabstop=2                   " size of a hard tabstop
